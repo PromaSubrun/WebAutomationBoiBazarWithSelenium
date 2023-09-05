@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="BoiBazar.T10_DeleteFromCart">
+        <methods>
+          <include name="openDriver"/>
+          <include name="BoiBazar"/>
+          <include name="driverClose"/>
+        </methods>
+      </class> <!-- BoiBazar.T10_DeleteFromCart -->
+      <class name="BoiBazar.T08_ClickTheCart">
+        <methods>
+          <include name="openDriver"/>
+          <include name="driverClose"/>
+          <include name="BoiBazar"/>
+        </methods>
+      </class> <!-- BoiBazar.T08_ClickTheCart -->
+      <class name="BoiBazar.T09_ClickTheNextButtonToCompleteTheOrder">
+        <methods>
+          <include name="openDriver"/>
+          <include name="BoiBazar"/>
+          <include name="driverClose"/>
+        </methods>
+      </class> <!-- BoiBazar.T09_ClickTheNextButtonToCompleteTheOrder -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

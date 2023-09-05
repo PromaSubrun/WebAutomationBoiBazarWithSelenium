@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="BoiBazar.T01_SiteVisit"/>
+      <class name="BoiBazar.T02_SelectBishoy"/>
+      <class name="BoiBazar.T03_SelectLekhok"/>
+      <class name="BoiBazar.T04_SelectMisirAli"/>
+      <class name="BoiBazar.T05_CheckTheBookMisirAliUnsolved"/>
+      <class name="BoiBazar.T06_EktuPoreDekhun"/>
+      <class name="BoiBazar.T07_ClickOnAddIcon"/>
+      <class name="BoiBazar.T08_ClickTheCart"/>
+      <class name="BoiBazar.T09_ClickTheNextButtonToCompleteTheOrder"/>
+      <class name="BoiBazar.T10_DeleteFromCart"/>
+      <class name="BoiBazar.T11_SelectByBookAndSearchIT"/>
+      <class name="BoiBazar.T12_SelectByLekhok"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
