@@ -44,5 +44,5 @@ Contributions to this project are welcome. Feel free to submit issues, feature r
 
 Happy Automating! 🚀
 
-For more information about Selenium, refer to the Selenium documentation.
+For more information about Selenium, refer to the [Selenium documentation](https://www.selenium.dev/documentation/).
  
