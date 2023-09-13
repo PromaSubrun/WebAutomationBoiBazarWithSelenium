@@ -15,9 +15,7 @@ public class T01_SiteVisit extends DriverSetup{
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		Thread.sleep(8000);
-		
-		
+		Thread.sleep(8000);	
 		
 	}
 
